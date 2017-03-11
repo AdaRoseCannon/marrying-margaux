@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	background: #FFF0F5;
+}
+
 body {
 
 	background-size: 100vw 100vh;
@@ -39,7 +43,7 @@ body {
 	}
 }
 footer {
-	background: url(../images/photo3.png);
+	background: linear-gradient(rgba(255, 240, 245, 1) 0, rgba(255, 240, 245, 0) 18%), url(../images/photo3.png);
 	width: 100%;
 	padding-top: 10%;
 	padding-bottom: 90%;
