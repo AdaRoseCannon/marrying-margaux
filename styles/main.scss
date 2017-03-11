@@ -29,6 +29,7 @@ body {
 	.photos {
 		width: 100%;
 		mix-blend-mode: multiply;
+		border-bottom: 8px solid #F08080;
 	}
 
 	main {
@@ -39,6 +40,9 @@ body {
 		#hero {
 			width: 50%;
 			float: right;
+			border-bottom: none;
+			box-shadow:  -8px 8px 0 0 #F08080;
+			margin: 0 0 0.5em 0.5em;
 		}
 	}
 }
