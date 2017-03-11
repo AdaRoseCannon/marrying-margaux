@@ -2,24 +2,22 @@
 ---
 body {
 
-background-size: 100vw 100vh;
-background-image: repeating-linear-gradient(45deg, #FFF0F5 0, #FFF0F5 86%, Thistle 0, Thistle 88%, LightBlue 0, LightBlue 90%, #98FB98 0, #98FB98 92%, Khaki 0, Khaki 94%, #FFa500 0, #FFA500 96%, #F08080 0, #F08080 98%); 
-background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-image: repeating-linear-gradient(45deg, #FFF0F5 0, #FFF0F5 86%, Thistle 0, Thistle 88%, LightBlue 0, LightBlue 90%, #98FB98 0, #98FB98 92%, Khaki 0, Khaki 94%, #FFa500 0, #FFA500 96%, #F08080 0, #F08080 98%); 
+    background-repeat: no-repeat;
+    margin: 0;
 
-//background-image: linear-gradient(40deg, #FFF0F5 82%, Thistle 87%, LightBlue 90%, #98FB98 92%, #F0E68C 94%, #FFa500 96.5%, #F08080 97.5%, #FFF0F5 99.5%);
-h1 {
-    display: inline;
-    width: auto;
-    font-family: "Unica One";
-    font-size: 5em;
-    color: black;
-}
-.photos {
-    
-    float: right;
-    mix-blend-mode: multiply;
-}
+    //background-image: linear-gradient(40deg, #FFF0F5 82%, Thistle 87%, LightBlue 90%, #98FB98 92%, #F0E68C 94%, #FFa500 96.5%, #F08080 97.5%, #FFF0F5 99.5%);
+    h1 {
+        display: inline;
+        width: auto;
+        font-family: "Unica One";
+        font-size: 5em;
+        color: black;
+    }
+    .photos {
 
-
-
+        width: 100%;
+        mix-blend-mode: multiply;
+    }
 }
