@@ -40,11 +40,13 @@ body {
 	}
 
 	.diamond-container {
-		padding-right: 150px;
+		padding-right: 35px;
 		min-width: 300px;
 		//background: url(../images/tile.png);
 		background-size: 300px 300px;
 		padding-bottom: 150px;
+		max-width: 100%;
+		overflow: hidden;
 	}
 
 	.diamond {
