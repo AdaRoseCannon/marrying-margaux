@@ -39,17 +39,49 @@ body {
 		margin-top: -2em;
 	}
 
+	.diamond-container {
+		padding-right: 150px;
+		min-width: 300px;
+		background: url(../images/tile.png);
+		background-size: 300px 300px;
+		padding-bottom: 150px;
+	}
+
 	.diamond {
 		width: 300px;
 		height: 300px;
 		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	}
-	
-	.row2 {
-		margin-top: -150px;
-		margin-left: 152px;
+
+		&:nth-child(even) {
+			margin-left: -150px;
+			top: 153px;
+			position: relative;
+			margin-right: -150px;
+		}
 	}
 
+	@media screen and (max-width: 600px) {
+
+		.diamond-container {
+			padding-right: 75px;
+			min-width: 300px;
+			background-size: 150px 150px;
+			padding-bottom: 75px;
+		}
+
+		.diamond {
+			width: 150px;
+			height: 150px;
+			clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+			&:nth-child(even) {
+				margin-left: -75px;
+				top: 76px;
+				position: relative;
+				margin-right: -75px;
+			}
+		}
+	}
 
 	main {
 		padding: 0.5em;
