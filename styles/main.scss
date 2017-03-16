@@ -42,7 +42,7 @@ body {
 	.diamond-container {
 		padding-right: 150px;
 		min-width: 300px;
-		background: url(../images/tile.png);
+		//background: url(../images/tile.png);
 		background-size: 300px 300px;
 		padding-bottom: 150px;
 	}
@@ -60,7 +60,7 @@ body {
 		}
 	}
 
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 950px) {
 
 		.diamond-container {
 			padding-right: 75px;
